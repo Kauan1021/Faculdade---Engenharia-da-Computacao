@@ -1,0 +1,98 @@
+EXEMPLO 1 (UM) - CABEÇALHO, CONTEÚDO E RODAPÉ
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Layout - Grid</title>
+        <link rel="stylesheet" href="exemplo_layout_grid.css">
+    </head>
+    <body>
+        
+      <div id="conteiner">
+        <div id="cabecalho">Cabeçalho</div>
+        <div id="conteudo">Conteúdo</div>
+        <div id="rodape">Rodapé</div>
+      </div>
+
+    </body>
+</html>
+
+CSS:
+
+#conteiner{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "header"
+    "content"
+    "footer";
+
+    grid-template-rows: 120px 70vh 80px;
+}
+
+#cabecalho{
+    grid-area: header;
+    border: 1px dashed #cdcdcd ;
+}
+
+#conteudo{
+    grid-area: content;
+    border: 1px dashed #cdcdcd ;
+}
+
+#rodape{
+    grid-area: footer;
+    border: 1px dashed #cdcdcd ;
+}
+
+EXEMPLO 2 (DOIS) - CABEÇALHO, ESQUERDO, CONTEÚDO E RODAPÉ
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Layout2</title>
+        <link rel="stylesheet" href="exemplo2_layout_grid.css">
+    </head>
+    <body>
+        <div id="conteiner">
+            <div id="cabecalho">Cabeçalho</div>
+            <div id="esquerdo">Esquerdo</div>
+            <div id="conteudo">Conteúdo</div>
+            <div id="rodape">Rodapé</div>  
+        </div>
+
+    </body>
+</html>
+
+CSS:
+
+#conteiner{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "cabecalho cabecalho"
+    "esquerdo conteudo"
+    "esquerdo rodape";
+
+    grid-template-columns: 20% auto;
+    grid-template-rows: 120px 70vh 80px;
+}
+
+#cabecalho{
+    grid-area: cabecalho;
+    border: 1px dashed #cdcdcd;
+}
+#esquerdo{
+    grid-area: esquerdo;
+    border: 1px dashed #cdcdcd;
+}
+#conteudo{
+    grid-area: conteudo;
+    border: 1px dashed #cdcdcd;
+}
+#rodape{
+    grid-area: rodape;
+    border: 1px dashed #cdcdcd;
+}
