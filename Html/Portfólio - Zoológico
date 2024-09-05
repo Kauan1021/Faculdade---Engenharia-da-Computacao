@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Zoológico de Guarulhos</title>
+        <link rel="stylesheet" href="Zoológico.css">
     </head>
     <body>
         <h1>Zoológico Municipal da Cidade de Guarulhos</h1>
