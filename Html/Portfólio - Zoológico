@@ -5,6 +5,7 @@
         <title>Zoológico de Guarulhos</title>
     </head>
     <body>
-        <div id="Cabeçalho"></div>
+        <h1>"Cabeçalho">Zoológico Municipal da Cidade de Guarulhos</h1>
+        <p>Venha conhecer as nossas atrações</p>
     </body>
 </html>
