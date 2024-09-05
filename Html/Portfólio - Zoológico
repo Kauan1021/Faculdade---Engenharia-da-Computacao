@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="Zoológico.css">
     </head>
     <body>
-        <h1>Zoológico Municipal da Cidade de Guarulhos</h1>
+        <div in="Conteudo"><h1>Zoológico Municipal da Cidade de Guarulhos</h1></div></div>
         <p>Venha conhecer as nossas atrações</p>
     </body>
 </html>
