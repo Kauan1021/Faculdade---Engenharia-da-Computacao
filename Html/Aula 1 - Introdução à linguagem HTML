@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Título</title>
+    </head>
+
+    <body>
+        Corpo: Conteúdo, imagem ou qualquer coisa.
+        <h1>Exemplo1</h1>
+        <h2>Exemplo2</h2>
+        <h3>Exemplo3</h3>
+        <h4>Exemplo4</h4>
+        <h5>Exemplo5</h5>
+        <h6>Exemplo6</h6>
+    </body>
+</html>
