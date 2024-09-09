@@ -1,0 +1,97 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo Menu</title>
+        <link rel="stylesheet" href="Exemplo_menu.css">
+    </head>
+    <body>
+        <div id="menu">
+            <ul>
+                <li> <a href="#quatro_bracos">Quatro braços</a> </li>
+                <li> <a href="#chamas">Chamas</a> </li>
+                <li> <a href="#diamante">Diamante</a> </li>
+                <li> <a href="#xlr8">Xlr8</a> </li>
+            </ul>
+        </div>
+
+        <main>
+            <section>
+                <h1><a name="quatro_bracos">Quatro Braços</a> </h1>
+                <p>Quatro Braços é um alienígena humanoide que é de aproximadamente 3,70 metros de altura,<br>
+                [Nota1] tem músculos avantajados, dois pares de braços de quatro dedos e pele vermelha bem desenvolvida.<br>
+                A listra preta vai desde o queixo até o lábio inferior, e ele tem quatro olhos: um par principal e um par menor abaixo deles.</p>
+            </section>
+            <br>
+            <section>
+                <h1><a name="chamas">Chamas</a> </h1>
+                <p>Chama é uma forma de vida humanoide baseada em plasma. Seu corpo é constituído por um interior<br>
+                   de magma brilhante coberta por um vermelho escuro. Seu corpo irradia grandes quantidades de calor.<br>
+                   Seus pés têm apenas dois dedos e uma parte traseira pontuda. Chama usava o símbolo do Omnitrix no peito.</p>
+            </section>
+            <br>
+            <section>
+                <h1><a name="diamante">Diamante</a> </h1>
+                <p>O corpo de Diamante é composto por um cristal orgânico extremamente resistente, que se assemelham a tadenita,<br>
+                    tornando-o quase invulnerável. Também possui quatro cristais grandes em suas costas. Seu corpo é completamente verde cristalizado.<br>
+                    O corpo todo é coberto por uma roupa preta e branca. O Omnitrix está em seu peito esquerdo.</p>
+            </section>
+            <br>
+            <section>
+                <h1><a name="xlr8">Xlr8</a></h1>
+                <p>XLR8 lembra um Velociraptor semi-blindado. Alienígena esbelto, com braços finos que possuem três garras em cada mão,<br>
+                    e duas garras nos pés por cima de bolas pretas que as usa quando corre, além de dar suporte as suas longas pernas.</p>
+            </section>
+        </main>
+    </body>
+</html>
+
+
+CSS
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #9DA65D ;
+}
+
+#menu{
+    background-color: #6C733D
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+#menu ul li a:hover {
+    background-color: #8C8C88;
+    transition: 0.4s all;
+}
+
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+#menu ul li a:hover {
+    background-color: #8C8C88;
+    transition: 0.4s all;
+}
