@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Java Script</title>
+    </head>
+    <body>
+        <script>
+
+         var idade = prompt("Digite sua idade") ;
+
+         idade = eval(idade) ;
+
+         if ( idade > 18 )
+         {
+             document.write ( "Idade maior que 18" ) ;
+         }
+         else
+         {
+            if (idade == 18) 
+            {
+                document.write ( "Idade igual que 18" ) ;
+            } 
+            else 
+            {
+                document.write ( "Idade menor que 18" ) ;
+            }
+         }
+        
+        </script>
+    </body>
+</html>
+
+EXEMPLO 2:
+
+<!DOCTYPE html>
+<html lang="pt=br">
+    <head>
+        <title>JavaScript</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <form name="form1">
+            idade:
+            <input type="text" name-="txtIdade" id="txtIdade">
+            <input tipe="button" value="Verificar" onclick="mostra">
+        </form>
+
+        <script src="exemplo4.js"></script>
+    </body>
+</html>
+
+JAVA SCRIPT
+
+
+function mostra( ){
+    var idade = document.form1.txtIdade.value ;
+    var idade1 = document.getElementById("txtIdade").value ;
+    alert ( idade );
+    alert( idade1 );
+}
