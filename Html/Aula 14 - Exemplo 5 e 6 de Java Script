@@ -1,0 +1,57 @@
+HTML - Exemplo 5
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script src="exemplo5_JS.js">
+            
+        </script>
+    </body>
+</html>
+
+JavaScript - Exemplo 5
+
+
+var largura = screen.width ;
+var altura = screen.height ;
+
+var larguraUtil = screen.availWidth ;
+var alturaUtil = screen.availHeight ;
+
+document.write("Largura da tela " + largura + " pixel" ) ;
+document.write("<br>") ;
+document.write("Altura da tela " + altura + " pixel") ;
+document.write("<br><br>") ;
+document.write("Largura da área utilizavel: " + larguraUtil + " pixel") ;
+document.write("Altura da área utilizavel: " + alturaUtil + " pixel") ;
+document.write("<br><br>") ;
+
+HTML - Exemplo 6
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            var nome = navigator.appName ;
+            var versao = navigator.appVersion ;
+
+        document.write( "Nome do navegador: " + nome ) ;
+        document.write( "Versão do navegador: " + versao ) ;
+
+        var tela = window.open( 'https://www.eniac.edu.br', '_blank', 'width = 800, height = 600' ) ;
+
+        setTimeout( ( ) => tela.close( ) , 5000 ) ;
+
+        setInterval( () => document.write("Oi, turma" + "<br>" ) , 2000 ) ;
+
+        </script>
+    </body>
+</html>
