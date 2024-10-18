@@ -1,0 +1,20 @@
+nome = "Milena"
+print( nome )
+sobrenome = 'Oliveira'
+print( sobrenome )
+numero = 12
+print ( 7+60 )
+print ( 67 - numero )
+salario = 123456.32
+ok = True
+numero = 784
+print ( numero )
+numero = 'Aqui é um texto'
+print ( numero )
+type ( numero )
+numero = 34
+type ( numero )
+type( salario )
+type ( ok )
+lista = [ 34, 2, -3, 0, 45 ]
+type ( lista )
